@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Pessoal - Victor Moreira</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f8ff; /* 1. Fundo suave */
+    }
+
+    h1 {
+      color: #2e6da4;
+      text-align: center; /* 2. Título centralizado */
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify; /* 3. Parágrafo justificado */
+    }
+
+    ul li {
+      margin-bottom: 10px; /* 4. Espaço entre itens da lista */
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 12px; /* 5. Borda arredondada */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+      background-color: #ffffff; /* 6. Estilo da tabela */
+    }
+
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+
+    td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    a {
+      color: #337ab7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #ff6600; /* 7. Efeito hover no link */
+    }
+
+    #mensagem {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #2e8b57;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #2e6da4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #1c4b74;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Victor Moreira</h1>
+
+  <p>
+    Olá! Meu nome é Victor Moreira, tenho 22 anos, moro em Salvador - BA e sou apaixonado por tecnologia, programação e música. Atualmente estudo desenvolvimento de software e adoro aprender coisas novas todos os dias.
+  </p>
+
+  <!-- Botão com interação -->
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <div id="mensagem"></div>
+
+  <h2>Meus hobbies favoritos:</h2>
+  <ul>
+    <li>Tocar violão</li>
+    <li>Jogar videogame</li>
+    <li>Explorar novas tecnologias</li>
+  </ul>
+
+  <h2>Imagem de um hobby:</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Tocando violão">
+
+  <h2>Países que gostaria de visitar:</h2>
+  <table>
+    <tr>
+      <td>Japão</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" alt="Japão" width="100"></td>
+    </tr>
+    <tr>
+      <td>Itália</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alt="Itália" width="100"></td>
+    </tr>
+    <tr>
+      <td>Canadá</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Canadá" width="100"></td>
+    </tr>
+  </table>
+
+  <h2>Site de interesse:</h2>
+  <p>
+    Você pode visitar meu site favorito de tecnologia: <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>.
+  </p>
+
+  <!-- Script JavaScript -->
+  <script>
+    function mostrarMensagem() {
+      const mensagem = document.getElementById("mensagem");
+      mensagem.textContent = "Bem-vindo à minha página! Nunca pare de aprender.";
+    }
+  </script>
+
+</body>
+</html>
