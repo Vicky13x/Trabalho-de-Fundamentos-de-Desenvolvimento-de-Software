@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff; /* Fundo suave */
+}
+
+h1 {
+  color: #2e6da4;
+  text-align: center; /* Título centralizado */
+}
+
+p {
+  font-size: 18px;
+  text-align: justify; /* Texto justificado */
+}
+
+ul li {
+  margin-bottom: 10px; /* Espaçamento entre itens da lista */
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px; /* Borda arredondada */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #ffffff; /* Fundo da tabela */
+}
+
+table, th, td {
+  border: 1px solid #aaa;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff6600; /* Hover no link */
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2e6da4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1c4b74;
+}
